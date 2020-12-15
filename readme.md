@@ -1,6 +1,6 @@
 # Fiber Tools
 
-This is a simple package with small tools to make fiber even nice then it already is.
+This is a simple package with small tools to make fiber even nice then it already is. Also has support for easily debugging error stack traces on panics and general errors.
 
 ## Install
 ```bash
@@ -44,5 +44,5 @@ app := fiber.New(fiber.Config{
 app.Use(fibertools.Recover())
 ```
 
-By: iNcizzle#1337
+By: iNcizzle#1337  
 Twitter: [iNcizzle](https://twitter.com/incizzle)
